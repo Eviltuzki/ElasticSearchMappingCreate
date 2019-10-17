@@ -26,7 +26,7 @@ public class KeywordAnnotationProcess implements AnnotationProcess {
                     ",\"doc_values\":" + keyword.docValues() +
                     ",\"eager_global_ordinals\":" + keyword.eagerGlobalOrdinals() +
                     ",\"ignore_above\":" + keyword.ignoreAbove() +
-                    ",\"include_in_all\":" + keyword.includeInAll() +
+                    //",\"include_in_all\":" + keyword.includeInAll() +
                     ",\"index\":" + keyword.index() +
                     ",\"index_options\":\"" + keyword.indexOptions().toString().toLowerCase() +"\"" +
                     ",\"norms\":" + keyword.norms() +

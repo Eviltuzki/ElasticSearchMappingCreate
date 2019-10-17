@@ -12,7 +12,7 @@ import java.util.List;
 
 public class MappingBuilder {
     public static <T> String builder(Class<T> clz) {
-        StringBuilder mappingBuilder = new StringBuilder("{\"_all\": { \"enabled\": false},");
+        StringBuilder mappingBuilder = new StringBuilder("{");
         subObject(clz, mappingBuilder, false);
         return mappingBuilder.append("}").toString().replace("\n", "").replace("\r", "");
     }

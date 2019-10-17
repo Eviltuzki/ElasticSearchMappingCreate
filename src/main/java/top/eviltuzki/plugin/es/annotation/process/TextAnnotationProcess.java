@@ -16,7 +16,7 @@ public class TextAnnotationProcess implements AnnotationProcess {
                     ",\"boost\":" + text.boost() +
                     ",\"analyzer\":\"" + text.analyzer() + "\"" +
                     ",\"eager_global_ordinals\":" + text.eagerGlobalOrdinals() +
-                    ",\"include_in_all\":" + text.includeInAll() +
+                    //",\"include_in_all\":" + text.includeInAll() +
                     ",\"index\":" + text.index() +
                     ",\"index_options\":\"" + text.indexOptions().toString().toLowerCase() + "\"" +
                     ",\"norms\":" + text.norms() +
